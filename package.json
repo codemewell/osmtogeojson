@@ -1,0 +1,10 @@
+{
+  "name": "osmtogeojson-ready-js",
+  "description": "Ready to go js file of osmtogeojson by tyrasd.",
+  "version": "1.0",
+  "dependencies": {
+    "https://github.com/tyrasd/osmtogeojson": "3.0.0-beta.3",
+    "https://github.com/browserify/browserify": "v16.2.3",
+    "https://github.com/mishoo/UglifyJS2": "v3.4.9"
+  }
+}
