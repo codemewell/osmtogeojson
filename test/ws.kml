@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>sciezka trasy</name>
+    <Style id="line-F8971B-5456-nodesc-normal">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>5.456</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F8971B-5456-nodesc-highlight">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>8.184</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F8971B-5456-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F8971B-5456-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F8971B-5456-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Trasa Spływu</name>
+      <styleUrl>#line-F8971B-5456-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          21.1395192,52.1710892,0
+          21.1372232,52.1717735,0
+          21.1347771,52.1735764,0
+          21.1222458,52.1789846,0
+          21.1157227,52.1822344,0
+          21.1107659,52.1852867,0
+          21.1083412,52.1876284,0
+          21.1062598,52.1904567,0
+          21.1045218,52.1932979,0
+          21.1039209,52.1959812,0
+          21.1039639,52.2002293,0
+          21.1030626,52.2032014,0
+          21.1020327,52.205529,0
+          21.1009598,52.2101707,0
+          21.0964537,52.2138259,0
+          21.0943294,52.214996,0
+          21.0919261,52.2158242,0
+          21.0862827,52.2173361,0
+          21.0835361,52.2178751,0
+          21.0767555,52.2182958,0
+          21.0684085,52.2185061,0
+          21.0606837,52.2192028,0
+          21.0577655,52.2199127,0
+          21.0550189,52.2212404,0
+          21.0533237,52.2223183,0
+          21.0505986,52.2246318,0
+          21.0496116,52.2255256,0
+          21.049118,52.2263405,0
+          21.0492897,52.2267611,0
+          21.0499445,52.2271161,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
